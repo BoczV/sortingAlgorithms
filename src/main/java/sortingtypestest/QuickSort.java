@@ -1,4 +1,4 @@
-package sortingtypes;
+package sortingtypestest;
 
 import java.util.Collections;
 import java.util.List;
