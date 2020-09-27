@@ -33,4 +33,12 @@ class BubbleSortTest {
         Assertions.assertThrows(IllegalArgumentException.class, () -> bubbleSort.sort(toSort));
     }
 
+    @Test
+    void testSortWithRecursion(){
+        List<Integer> toSort = Arrays.asList(3, 1, 10, 8, 7, 9, 5, 2, 4);
+        bubbleSort.recursiveSort(toSort);
+        List<Integer> expected = Arrays.asList(1, 2, 3, 4, 5, 7, 8, 9, 10);
+        Assertions.assertIterableEquals(expected, toSort);
+    }
+
 }
