@@ -1,8 +1,7 @@
-package sortingtypes;
+package sorting;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import sortingtypes.QuickSort;
 
 import java.util.Arrays;
 import java.util.List;
